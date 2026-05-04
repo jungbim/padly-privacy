@@ -1,0 +1,675 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>개인정보처리방침 | Padly</title>
+  <meta name="description" content="Padly bilingual privacy policy and legal documents.">
+  <meta name="theme-color" content="#F5EFE6">
+  <style>
+:root {
+  --sage: #8FA68E;
+  --coral: #E8908C;
+  --cream: #F5EFE6;
+  --charcoal: #2D2D2D;
+  --paper: #fffaf2;
+  --muted: #66635f;
+  --line: rgba(45, 45, 45, 0.14);
+  --shadow: 0 24px 60px rgba(45, 45, 45, 0.12);
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans", "Noto Sans KR", Arial, sans-serif;
+  background: linear-gradient(135deg, var(--cream) 0%, #fff7ef 48%, #f1e5dc 100%);
+  color: var(--charcoal);
+  line-height: 1.68;
+}
+a { color: #5f7d5e; text-decoration-thickness: 0.12em; text-underline-offset: 0.18em; }
+a:hover { color: var(--coral); }
+.site-header {
+  border-bottom: 1px solid var(--line);
+  background: rgba(245, 239, 230, 0.88);
+  backdrop-filter: blur(14px);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.nav {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 16px 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  color: var(--charcoal);
+  text-decoration: none;
+}
+.brand-mark {
+  width: 34px;
+  height: 34px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, var(--sage), var(--coral));
+  box-shadow: 0 8px 22px rgba(143, 166, 142, 0.38);
+}
+.nav-links { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.nav-links a {
+  display: inline-flex;
+  padding: 8px 12px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgba(255, 250, 242, 0.62);
+  color: var(--charcoal);
+  text-decoration: none;
+  font-size: 0.93rem;
+}
+.nav-links a[aria-current="page"], .nav-links a:hover {
+  background: var(--charcoal);
+  color: var(--cream);
+  border-color: var(--charcoal);
+}
+.hero {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 70px 22px 36px;
+}
+.hero-card {
+  background: rgba(255, 250, 242, 0.82);
+  border: 1px solid var(--line);
+  border-radius: 30px;
+  box-shadow: var(--shadow);
+  padding: clamp(28px, 6vw, 62px);
+  overflow: hidden;
+  position: relative;
+}
+.hero-card:before {
+  content: "";
+  position: absolute;
+  inset: -120px -80px auto auto;
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(232, 144, 140, 0.34), rgba(232, 144, 140, 0));
+}
+.kicker {
+  color: #6d866c;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.11em;
+  font-size: 0.78rem;
+  margin: 0 0 12px;
+}
+h1 {
+  margin: 0 0 16px;
+  font-size: clamp(2.15rem, 5.5vw, 4.6rem);
+  line-height: 0.98;
+  letter-spacing: -0.07em;
+}
+.hero p { max-width: 760px; color: var(--muted); font-size: 1.08rem; }
+.cta-row { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 46px;
+  padding: 11px 18px;
+  border-radius: 999px;
+  background: var(--charcoal);
+  color: var(--cream);
+  border: 1px solid var(--charcoal);
+  text-decoration: none;
+  font-weight: 760;
+}
+.button.secondary { background: transparent; color: var(--charcoal); border-color: var(--line); }
+.button:hover { background: var(--coral); border-color: var(--coral); color: var(--charcoal); }
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 34px 22px 74px;
+}
+.policy {
+  background: rgba(255, 250, 242, 0.92);
+  border: 1px solid var(--line);
+  border-radius: 28px;
+  box-shadow: var(--shadow);
+  padding: clamp(24px, 4vw, 48px);
+}
+.policy h1 { font-size: clamp(2rem, 5vw, 3.2rem); }
+.policy h2 {
+  margin-top: 2.2em;
+  padding-top: 1.1em;
+  border-top: 1px solid var(--line);
+  font-size: clamp(1.35rem, 3vw, 2rem);
+  letter-spacing: -0.04em;
+}
+.policy h3 { margin-top: 1.8em; color: #5f7d5e; }
+.policy blockquote {
+  margin: 22px 0;
+  padding: 16px 18px;
+  border-left: 5px solid var(--coral);
+  background: rgba(232, 144, 140, 0.11);
+  border-radius: 0 16px 16px 0;
+}
+.policy table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0 28px;
+  overflow: hidden;
+  border-radius: 16px;
+  display: block;
+  overflow-x: auto;
+  border: 1px solid var(--line);
+}
+.policy thead { background: rgba(143, 166, 142, 0.2); }
+.policy th, .policy td {
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid var(--line);
+  padding: 12px 14px;
+  min-width: 160px;
+}
+.policy tr:last-child td { border-bottom: 0; }
+.policy code {
+  background: rgba(45, 45, 45, 0.08);
+  border-radius: 6px;
+  padding: 0.1em 0.35em;
+}
+hr { border: 0; border-top: 1px solid var(--line); margin: 28px 0; }
+.footer {
+  border-top: 1px solid var(--line);
+  background: rgba(45, 45, 45, 0.94);
+  color: var(--cream);
+}
+.footer-inner {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 22px;
+  display: flex;
+  justify-content: space-between;
+  gap: 14px;
+  flex-wrap: wrap;
+  color: rgba(245, 239, 230, 0.84);
+}
+.lang-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  margin-top: 30px;
+}
+.lang-card {
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  padding: 24px;
+  background: rgba(255, 250, 242, 0.74);
+  text-decoration: none;
+  color: var(--charcoal);
+  transition: transform .18s ease, border-color .18s ease, background .18s ease;
+}
+.lang-card:hover { transform: translateY(-3px); border-color: var(--coral); background: rgba(255, 250, 242, 0.96); color: var(--charcoal); }
+.lang-card strong { display: block; font-size: 1.28rem; margin-bottom: 8px; }
+.skip-link {
+  position: absolute;
+  left: -999px;
+  top: 10px;
+  background: var(--charcoal);
+  color: var(--cream);
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+.skip-link:focus { left: 10px; z-index: 99; }
+@media (max-width: 720px) {
+  .nav { align-items: flex-start; flex-direction: column; }
+  .hero { padding-top: 36px; }
+  .lang-grid { grid-template-columns: 1fr; }
+  .footer-inner { flex-direction: column; }
+  .policy th, .policy td { min-width: 220px; }
+}
+</style>
+</head>
+<body>
+  <a class="skip-link" href="#content">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/"><span class="brand-mark" aria-hidden="true"></span><span>Padly</span></a>
+      <div class="nav-links">
+        <a href="/en/">English</a>
+        <a href="/ko/" aria-current="page">한국어</a>
+      </div>
+    </nav>
+  </header>
+  <main id="content" class="container">
+    <article class="policy">
+      <p class="kicker">Privacy Policy</p>
+      <h1>개인정보처리방침</h1>
+<p><strong>최종 수정일:</strong> 2026-05-04<br>
+<strong>시행일:</strong> 2026-07-04 (예정)<br>
+<strong>서비스명:</strong> Padly<br>
+<strong>운영자:</strong> Padly (이하 “회사”)</p>
+<hr>
+<h2>1. 총칙</h2>
+<p>Padly는 한국을 방문한 여행자가 한국 생리용품을 이해하고 찾을 수 있도록 돕는 iOS 애플리케이션입니다. 서비스는 <strong>제품 정보, 제품 매칭 보조, 주변 매장 안내, 가이드 콘텐츠</strong>를 제공합니다. Padly는 의료 진단, 치료, 의학적 조언, 임신·배란·생리주기 예측, 또는 특정 제품이 질환을 예방·치료·완화한다는 주장을 제공하지 않습니다.</p>
+<p>본 개인정보처리방침은 회사가 Padly 모바일 앱(이하 “서비스”)을 통해 처리하는 개인정보의 항목, 목적, 보유 기간, 제3자 및 수탁자 처리, 이용자 권리 등을 설명합니다. 본 방침은 Apple App Store 제출 요건과 대한민국 「개인정보 보호법」, 그리고 적용 가능한 경우 EU 「일반 개인정보 보호법」(GDPR)을 고려하여 작성되었습니다.</p>
+<p>Apple은 App Store 개인정보 답변이 앱과 제3자 파트너가 수집하는 데이터를 정확히 설명해야 하며, 개발자가 해당 답변을 최신 상태로 유지할 책임이 있다고 안내합니다.<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></p>
+<hr>
+<h2>2. 수집하는 개인정보 항목 및 수집 방법</h2>
+<p>Padly는 개인정보 최소 수집 원칙을 따릅니다. 현재 v1 구현에서 주요 개인정보 항목은 <strong>계정 인증 데이터</strong>, <strong>주변 매장 검색을 위한 사용 중 위치 정보</strong>, 그리고 <strong>인프라 제공자가 생성하는 기술·서비스 로그</strong>입니다. v1에서는 생리일, 증상, 나이, 사진, 카메라 데이터, 결제 카드 정보, 광고 식별자, 백그라운드 위치 정보를 수집하지 않습니다.</p>
+<h3>2.1 계정 및 인증 데이터</h3>
+<table>
+<thead>
+<tr>
+<th>항목</th>
+<th>수집 목적</th>
+<th>수집 시점</th>
+<th>저장 위치 / 처리자</th>
+<th>보유 기간</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>이메일 주소</td>
+<td>계정 생성, 로그인, 계정 복구, 고객 지원, 계정 삭제 요청 처리</td>
+<td>회원가입, 로그인, 고객 지원 문의 시</td>
+<td>Supabase 인증 및 데이터베이스 인프라</td>
+<td>계정 삭제 시까지. 단, 법령상 보존이 필요한 경우 예외</td>
+</tr>
+<tr>
+<td>비밀번호 인증 정보 / 해시 암호</td>
+<td>인증 및 계정 보안</td>
+<td>사용자가 비밀번호를 생성·변경할 때</td>
+<td>비밀번호는 HTTPS로 Supabase 인증 시스템에 전송됩니다. Padly는 평문 비밀번호를 표시하거나 자체 저장하지 않으며, 인증 제공자는 보안 통제에 따라 해시된 형태의 비밀번호 인증 정보를 보관합니다.</td>
+<td>계정 삭제 또는 비밀번호 변경 시까지. 단, 제공자 보안 로그와 법적 의무는 예외</td>
+</tr>
+<tr>
+<td>Supabase 사용자 ID / 계정 식별자</td>
+<td>계정 세션 관리, 사용자 계정 상태 연결, 고객 지원</td>
+<td>계정 생성 시 자동 생성</td>
+<td>Supabase</td>
+<td>계정 삭제 시까지. 단, 법령상 보존이 필요한 경우 예외</td>
+</tr>
+<tr>
+<td>세션 토큰 / 갱신 토큰</td>
+<td>로그인 상태 유지 및 인증 세션 관리</td>
+<td>로그인 성공 후 생성</td>
+<td>사용자 기기 내 앱 저장소에 저장되며 Supabase 인증 시스템이 관리</td>
+<td>로그아웃, 토큰 만료, 계정 삭제, 앱 삭제 또는 로컬 데이터 삭제 시까지</td>
+</tr>
+</tbody>
+</table>
+<h3>2.2 선택적 위치 정보</h3>
+<table>
+<thead>
+<tr>
+<th>항목</th>
+<th>수집 목적</th>
+<th>수집 시점</th>
+<th>제3자 처리 / 제공</th>
+<th>보유 기간</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>정확한 사용 중 위치 좌표(위도·경도)</td>
+<td>주변 편의점, 약국, 슈퍼마켓, 대형마트 등 매장 검색 결과 제공</td>
+<td>사용자가 앱 사용 중 위치 권한을 허용하고 Nearby 기능을 사용할 때</td>
+<td>Google Places / Maps Platform에 전송되어 주변 검색 결과를 반환받음</td>
+<td>Padly는 위치 이력을 저장하지 않습니다. Google은 자체 약관과 개인정보 처리방침에 따라 요청을 처리합니다.</td>
+</tr>
+</tbody>
+</table>
+<p>위치 권한은 <strong>선택 사항</strong>입니다. 사용자가 위치 권한을 거부해도 제품 가이드와 제품 매칭 정보는 사용할 수 있으나, 주변 매장 안내 기능은 제한될 수 있습니다. Padly는 백그라운드 위치 권한을 요청하지 않습니다.</p>
+<h3>2.3 제품 카탈로그 및 서비스 이용 데이터</h3>
+<table>
+<thead>
+<tr>
+<th>항목</th>
+<th>수집 목적</th>
+<th>수집 시점</th>
+<th>저장 위치 / 처리자</th>
+<th>보유 기간</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>제품 카탈로그 조회 요청</td>
+<td>한국 제품 카탈로그 및 추천 카드 표시</td>
+<td>Finder 탭 또는 관련 제품 기능 이용 시</td>
+<td>Supabase 인프라 로그가 IP 주소, 요청 시간, 기술 요청 정보 등을 처리할 수 있음</td>
+<td>Supabase 로그 및 보존 설정에 따름. Padly가 별도 내보내기 또는 저장하지 않는 한 제공자 정책 적용</td>
+</tr>
+<tr>
+<td>앱 버전, OS 버전, 기기 모델, IP 주소, 요청 시각 등 기술 메타데이터</td>
+<td>보안, 서비스 제공, 오류 확인, 부정 이용 방지, 인프라 운영</td>
+<td>앱이 백엔드 또는 제3자 서비스와 통신할 때 자동 생성</td>
+<td>Supabase, Google, Apple 및 관련 인프라 제공자</td>
+<td>각 제공자의 운영 및 법적 보존 요건에 따름</td>
+</tr>
+<tr>
+<td>온보딩 완료 여부 및 로컬 앱 설정</td>
+<td>온보딩 완료 상태 기억 및 로컬 사용자 경험 유지</td>
+<td>사용자가 온보딩을 완료하거나 로컬 앱 상태가 변경될 때</td>
+<td>사용자 기기 내 로컬 저장소</td>
+<td>앱 삭제, 로컬 데이터 삭제 또는 초기화 시까지</td>
+</tr>
+</tbody>
+</table>
+<p>Padly v1은 제3자 광고 SDK를 사용하지 않으며, 개인정보를 판매하지 않고, 수집한 데이터를 다른 회사의 앱 또는 웹사이트를 가로질러 사용자를 추적하는 데 사용하지 않습니다.</p>
+<h3>2.4 v1에서 수집하지 않는 항목</h3>
+<table>
+<thead>
+<tr>
+<th>항목</th>
+<th>v1 상태</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>생리일, 생리 예상일, PMS 증상, 배란·임신 가능성, 기타 건강 기록</td>
+<td>수집하지 않음</td>
+</tr>
+<tr>
+<td>사진, 카메라 데이터, OCR 스캔 이미지, 사진 보관함 데이터</td>
+<td>수집하지 않음</td>
+</tr>
+<tr>
+<td>나이, 생년월일, 키, 몸무게, 체형 정보</td>
+<td>수집하지 않음</td>
+</tr>
+<tr>
+<td>결제 카드 정보</td>
+<td>Padly v1에서 수집하지 않음</td>
+</tr>
+<tr>
+<td>광고 식별자(IDFA) 또는 추적 데이터</td>
+<td>수집하지 않음</td>
+</tr>
+<tr>
+<td>푸시 알림 토큰</td>
+<td>v1에서 수집하지 않음</td>
+</tr>
+<tr>
+<td>백그라운드 위치 또는 위치 이력</td>
+<td>수집하지 않음</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>3. 개인정보의 처리 목적</h2>
+<p>회사는 서비스 제공에 필요하고 이용자에게 고지된 목적 범위 내에서만 개인정보를 이용합니다.</p>
+<table>
+<thead>
+<tr>
+<th>목적</th>
+<th>이용 데이터</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>계정 관리 및 인증</td>
+<td>이메일 주소, 비밀번호 인증 정보 / 해시 암호, 사용자 ID, 세션 토큰</td>
+<td>계정 생성, 로그인, 세션 유지, 계정 보안, 계정 삭제 및 고객 지원 요청 처리</td>
+</tr>
+<tr>
+<td>서비스 제공</td>
+<td>제품 카탈로그 조회 데이터, 계정 세션 상태, 선택적 사용 중 위치 정보</td>
+<td>한국 생리용품 정보, 추천 카드, 가이드 콘텐츠, 주변 매장 결과 제공</td>
+</tr>
+<tr>
+<td>보안 및 부정 이용 방지</td>
+<td>기술 로그, IP 주소, 세션 정보, 제공자 로그</td>
+<td>서비스 보호, 남용 방지, 오류 확인, 안정성 유지</td>
+</tr>
+<tr>
+<td>고객 지원</td>
+<td>이메일 주소, 이용자가 제공한 문의 내용, 계정 식별자</td>
+<td>문의, 삭제 요청, 운영 지원 처리</td>
+</tr>
+<tr>
+<td>법적 의무 이행</td>
+<td>법령상 필요한 계정 기록 및 운영 로그</td>
+<td>관련 법령 준수, 권리 보호, 적법한 요청 대응</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>4. GDPR상 처리 근거</h2>
+<p>GDPR이 적용되는 이용자에 대해서는 GDPR 제6조에 따른 다음 법적 근거에 의하여 개인정보를 처리합니다.<sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup></p>
+<table>
+<thead>
+<tr>
+<th>처리 활동</th>
+<th>GDPR상 법적 근거</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>계정 생성, 로그인, 세션 관리</td>
+<td>계약 이행 또는 계약 체결 전 조치, 제6조 제1항 (b)</td>
+</tr>
+<tr>
+<td>주변 매장 검색을 위한 선택적 사용 중 위치 정보</td>
+<td>동의, 제6조 제1항 (a). iOS 위치 권한 흐름을 통해 동의 표시</td>
+</tr>
+<tr>
+<td>보안, 오류 확인, 서비스 안정성 유지</td>
+<td>정당한 이익, 제6조 제1항 (f). 단, 이용자의 권리와 자유가 우선하지 않는 범위</td>
+</tr>
+<tr>
+<td>법적 요청 또는 법령상 의무 대응</td>
+<td>법적 의무, 제6조 제1항 (c)</td>
+</tr>
+<tr>
+<td>이용자가 자발적으로 보낸 고객 지원 문의</td>
+<td>문의 성격에 따라 동의 또는 정당한 이익</td>
+</tr>
+</tbody>
+</table>
+<p>Padly v1은 GDPR 제9조의 특별 범주 건강정보를 의도적으로 처리하지 않습니다. Padly v1의 생리용품 매칭은 의료 진단이나 건강 프로파일링이 아니라 제품 정보 및 리테일 안내로 취급됩니다.</p>
+<hr>
+<h2>5. 개인정보의 보유 및 이용 기간</h2>
+<p>회사는 본 방침에 명시된 목적 달성에 필요한 기간 동안만 개인정보를 보유합니다. 단, 법령상 더 긴 보존 기간이 요구되는 경우에는 해당 기간 동안 보관할 수 있습니다.</p>
+<table>
+<thead>
+<tr>
+<th>데이터 유형</th>
+<th>보유 기간</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>이메일 주소 및 사용자 ID 등 계정 데이터</td>
+<td>계정 삭제 시까지. 필요 시 짧은 운영 백업 또는 분쟁 처리 기간 추가 가능</td>
+</tr>
+<tr>
+<td>비밀번호 인증 정보 / 해시 암호</td>
+<td>계정 삭제 또는 비밀번호 변경 시까지. 인증 제공자의 보안 통제는 예외</td>
+</tr>
+<tr>
+<td>기기 내 세션 토큰</td>
+<td>로그아웃, 토큰 만료, 계정 삭제, 앱 삭제 또는 로컬 앱 데이터 삭제 시까지</td>
+</tr>
+<tr>
+<td>사용 중 위치 좌표</td>
+<td>Padly는 위치 이력으로 저장하지 않으며, 주변 매장 결과 반환을 위해 일시적으로 사용</td>
+</tr>
+<tr>
+<td>고객 지원 문의</td>
+<td>문의 처리와 합리적 지원 기록 유지에 필요한 기간</td>
+</tr>
+<tr>
+<td>인프라 접근 로그</td>
+<td>Supabase, Google, Apple 및 관련 인프라 제공자의 보존 설정과 법적 의무에 따름</td>
+</tr>
+<tr>
+<td>법령상 보존이 필요한 기록</td>
+<td>해당 법령에서 정한 기간</td>
+</tr>
+</tbody>
+</table>
+<p>Padly가 향후 인앱 결제, 커뮤니티 리뷰, 생리주기 기능, 알림, 건강 관련 개인화 기능을 추가하는 경우, 해당 기능 출시 전에 본 방침을 업데이트해야 합니다.</p>
+<hr>
+<h2>6. 개인정보의 제3자 제공 및 처리 위탁</h2>
+<p>회사는 개인정보를 판매하지 않습니다. Padly v1에서는 개인정보를 크로스앱 추적 또는 제3자 광고 목적으로 제공하지 않습니다. 다만 서비스 운영, 법적 의무 이행, 이용자 요청 지원에 필요한 범위에서 아래 처리자 또는 수탁자에게 정보가 제공되거나 처리될 수 있습니다.</p>
+<table>
+<thead>
+<tr>
+<th>수령자 / 처리자</th>
+<th style="text-align: right;">위치</th>
+<th>역할</th>
+<th>관련 데이터</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Supabase Inc.</td>
+<td style="text-align: right;">미국 / 클라우드 인프라 리전</td>
+<td>인증, 데이터베이스, 백엔드 인프라</td>
+<td>이메일 주소, 사용자 ID, 인증·세션 데이터, 카탈로그 요청 로그, 기술 메타데이터</td>
+</tr>
+<tr>
+<td>Google LLC / Google Maps Platform</td>
+<td style="text-align: right;">글로벌</td>
+<td>주변 매장 검색 및 지도 관련 서비스</td>
+<td>Nearby 기능 사용 시 사용 중 위치 좌표 및 기술 요청 메타데이터</td>
+</tr>
+<tr>
+<td>Apple Inc.</td>
+<td style="text-align: right;">글로벌</td>
+<td>앱 배포, App Store 심사, TestFlight, 플랫폼 서비스</td>
+<td>앱 배포 메타데이터, Apple이 제공하는 크래시·진단 데이터, Apple 자체 정책에 따라 처리되는 App Store 계정 관련 데이터</td>
+</tr>
+<tr>
+<td>이용자가 선택한 이메일 서비스 또는 메일 클라이언트</td>
+<td style="text-align: right;">다양</td>
+<td>고객 지원 및 계정 삭제 요청</td>
+<td>이용자가 제공한 문의 내용 및 이메일 주소</td>
+</tr>
+<tr>
+<td>법원, 수사기관, 규제기관 등</td>
+<td style="text-align: right;">다양</td>
+<td>법적 의무 이행</td>
+<td>적법한 절차 또는 관련 법령에 따라 요구되는 정보</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>7. 국제 데이터 이전</h2>
+<p>Padly는 미국을 포함하여 이용자의 거주국 외부에 위치한 서비스 제공자를 사용할 수 있습니다. GDPR이 적용되고 개인정보가 국외로 이전되는 경우, 회사는 적정성 결정, 표준계약조항(Standard Contractual Clauses) 또는 기타 적법한 이전 메커니즘 등 적절한 보호조치를 적용합니다.<sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup></p>
+<p>이용자는 다른 국가의 개인정보 및 데이터 보호 법령이 거주국의 법령과 다를 수 있음을 이해해야 합니다. 회사는 신뢰할 수 있는 인프라 제공자를 사용하고, 서비스 제공에 필요한 범위로 이전 데이터를 제한하기 위해 합리적 조치를 취합니다.</p>
+<hr>
+<h2>8. 이용자의 권리 및 행사 방법</h2>
+<p>이용자는 적용 법령에 따라 다음 권리를 행사할 수 있습니다.</p>
+<table>
+<thead>
+<tr>
+<th>권리</th>
+<th>의미</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>열람</td>
+<td>회사가 개인정보를 처리하는지 확인하고, 법령상 요구되는 경우 사본을 받을 권리</td>
+</tr>
+<tr>
+<td>정정</td>
+<td>부정확하거나 불완전한 개인정보의 정정을 요청할 권리</td>
+</tr>
+<tr>
+<td>삭제</td>
+<td>법령상 예외를 제외하고 계정 데이터 및 개인정보 삭제를 요청할 권리</td>
+</tr>
+<tr>
+<td>처리 제한 또는 반대</td>
+<td>적용 가능한 경우 특정 처리의 제한 또는 반대를 요청할 권리</td>
+</tr>
+<tr>
+<td>개인정보 이동</td>
+<td>GDPR 적용 시 일정 개인정보를 이동 가능한 형식으로 받을 권리</td>
+</tr>
+<tr>
+<td>동의 철회</td>
+<td>위치 권한 등 선택적 처리에 대한 동의를 iOS 설정 또는 앱 내 기능으로 철회할 권리</td>
+</tr>
+<tr>
+<td>감독기관 진정</td>
+<td>적용 가능한 경우 관할 개인정보 감독기관에 진정을 제기할 권리</td>
+</tr>
+</tbody>
+</table>
+<p><strong>행사 방법:</strong> 이용자는 아래 이메일로 요청할 수 있습니다. 앱 내 계정 삭제 또는 개인정보 관리 기능이 제공되는 경우 해당 기능을 통해서도 요청할 수 있습니다.<br>
+<strong>처리 목표 기간:</strong> 회사는 실무상 가능한 경우 10영업일 이내, 또는 적용 법령에서 정한 기간 내에 응답하는 것을 목표로 합니다.</p>
+<hr>
+<h2>9. 계정 삭제</h2>
+<p>이용자는 앱 내 계정 관리 기능이 제공되는 경우 해당 기능을 통해, 또는 아래 이메일로 계정 삭제를 요청할 수 있습니다. 회사는 요청을 확인한 후 법적 의무, 보안, 분쟁 해결, 합리적 운영상 필요가 있는 경우를 제외하고 계정 데이터를 삭제하거나 비식별화합니다.</p>
+<p>로그아웃은 기기의 활성 세션만 제거하며 계정 자체를 삭제하지 않습니다. 앱 삭제는 기기 내 로컬 세션 데이터를 제거할 수 있으나, 인증 제공자에 저장된 계정이 자동으로 삭제되는 것은 아닙니다.</p>
+<hr>
+<h2>10. 아동 개인정보 보호</h2>
+<p>Padly는 아동을 대상으로 하지 않습니다. 서비스는 대한민국 기준 만 14세 미만 또는 이용자 관할권의 적용 가능한 최소 디지털 동의 연령 미만 아동을 대상으로 하지 않습니다. 회사가 적절한 동의 없이 아동의 개인정보를 수집한 사실을 알게 되는 경우 합리적 조치를 통해 해당 정보를 삭제합니다.</p>
+<hr>
+<h2>11. 개인정보 보호를 위한 안전조치</h2>
+<p>회사는 데이터의 성격에 적합한 합리적 기술적·관리적 보호조치를 적용합니다. 여기에는 HTTPS 전송, 관리형 인증 인프라, 최소 수집 원칙이 포함됩니다. 다만 어떤 시스템도 완전한 보안을 보장할 수는 없습니다. 이용자는 강력한 비밀번호를 사용하고 다른 서비스와 비밀번호를 재사용하지 않아야 합니다.</p>
+<hr>
+<h2>12. 방침 변경 안내</h2>
+<p>회사는 서비스 변경, 법령 변경, Apple App Store 요구사항 변경, 데이터 처리 방식 변경을 반영하기 위해 본 방침을 수정할 수 있습니다. 중요한 변경 사항은 앱, 웹사이트, App Store listing 또는 기타 합리적 방법으로 고지합니다. 이용자 권리에 중대한 영향을 미치거나 새로운 개인정보 처리 항목이 추가되는 경우, 법령상 필요한 추가 고지 또는 동의를 진행합니다.</p>
+<hr>
+<h2>13. 문의처</h2>
+<table>
+<thead>
+<tr>
+<th>구분</th>
+<th>내용</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>개인정보 문의 / 운영자</td>
+<td>Padly</td>
+</tr>
+<tr>
+<td>이메일</td>
+<td>jungbim@gmail.com (privacy@padly.app — 도메인 확정 시 적용 예정)</td>
+</tr>
+<tr>
+<td>고객 지원 이메일</td>
+<td>jungbim@gmail.com (support@padly.app — 도메인 확정 시 적용 예정)</td>
+</tr>
+</tbody>
+</table>
+<p>공개 게시 시점에 위 이메일이 활성화되어 있지 않다면, App Store 제출 전에 실제 사용 가능한 연락처로 교체해야 합니다.</p>
+<hr>
+<h2>참고자료</h2>
+<p><em>본 개인정보처리방침은 2026-07-04부터 적용 예정입니다.</em></p>
+<div class="footnote">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://developer.apple.com/app-store/app-privacy-details/">Apple Developer — App Privacy Details on the App Store</a>&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="https://eur-lex.europa.eu/eli/reg/2016/679/oj">Regulation (EU) 2016/679, Article 6 — Lawfulness of processing</a>&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:3">
+<p><a href="https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/standard-contractual-clauses-scc_en">European Commission — Standard Contractual Clauses for international transfers</a>&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+    </article>
+  </main>
+  <footer class="footer">
+    <div class="footer-inner">
+      <span>Last updated: 2026-05-04</span>
+      <span>Padly © 2026</span>
+    </div>
+  </footer>
+</body>
+</html>

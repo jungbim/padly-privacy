@@ -1,0 +1,675 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy | Padly</title>
+  <meta name="description" content="Padly bilingual privacy policy and legal documents.">
+  <meta name="theme-color" content="#F5EFE6">
+  <style>
+:root {
+  --sage: #8FA68E;
+  --coral: #E8908C;
+  --cream: #F5EFE6;
+  --charcoal: #2D2D2D;
+  --paper: #fffaf2;
+  --muted: #66635f;
+  --line: rgba(45, 45, 45, 0.14);
+  --shadow: 0 24px 60px rgba(45, 45, 45, 0.12);
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans", "Noto Sans KR", Arial, sans-serif;
+  background: linear-gradient(135deg, var(--cream) 0%, #fff7ef 48%, #f1e5dc 100%);
+  color: var(--charcoal);
+  line-height: 1.68;
+}
+a { color: #5f7d5e; text-decoration-thickness: 0.12em; text-underline-offset: 0.18em; }
+a:hover { color: var(--coral); }
+.site-header {
+  border-bottom: 1px solid var(--line);
+  background: rgba(245, 239, 230, 0.88);
+  backdrop-filter: blur(14px);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.nav {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 16px 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  color: var(--charcoal);
+  text-decoration: none;
+}
+.brand-mark {
+  width: 34px;
+  height: 34px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, var(--sage), var(--coral));
+  box-shadow: 0 8px 22px rgba(143, 166, 142, 0.38);
+}
+.nav-links { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.nav-links a {
+  display: inline-flex;
+  padding: 8px 12px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgba(255, 250, 242, 0.62);
+  color: var(--charcoal);
+  text-decoration: none;
+  font-size: 0.93rem;
+}
+.nav-links a[aria-current="page"], .nav-links a:hover {
+  background: var(--charcoal);
+  color: var(--cream);
+  border-color: var(--charcoal);
+}
+.hero {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 70px 22px 36px;
+}
+.hero-card {
+  background: rgba(255, 250, 242, 0.82);
+  border: 1px solid var(--line);
+  border-radius: 30px;
+  box-shadow: var(--shadow);
+  padding: clamp(28px, 6vw, 62px);
+  overflow: hidden;
+  position: relative;
+}
+.hero-card:before {
+  content: "";
+  position: absolute;
+  inset: -120px -80px auto auto;
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(232, 144, 140, 0.34), rgba(232, 144, 140, 0));
+}
+.kicker {
+  color: #6d866c;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.11em;
+  font-size: 0.78rem;
+  margin: 0 0 12px;
+}
+h1 {
+  margin: 0 0 16px;
+  font-size: clamp(2.15rem, 5.5vw, 4.6rem);
+  line-height: 0.98;
+  letter-spacing: -0.07em;
+}
+.hero p { max-width: 760px; color: var(--muted); font-size: 1.08rem; }
+.cta-row { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 46px;
+  padding: 11px 18px;
+  border-radius: 999px;
+  background: var(--charcoal);
+  color: var(--cream);
+  border: 1px solid var(--charcoal);
+  text-decoration: none;
+  font-weight: 760;
+}
+.button.secondary { background: transparent; color: var(--charcoal); border-color: var(--line); }
+.button:hover { background: var(--coral); border-color: var(--coral); color: var(--charcoal); }
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 34px 22px 74px;
+}
+.policy {
+  background: rgba(255, 250, 242, 0.92);
+  border: 1px solid var(--line);
+  border-radius: 28px;
+  box-shadow: var(--shadow);
+  padding: clamp(24px, 4vw, 48px);
+}
+.policy h1 { font-size: clamp(2rem, 5vw, 3.2rem); }
+.policy h2 {
+  margin-top: 2.2em;
+  padding-top: 1.1em;
+  border-top: 1px solid var(--line);
+  font-size: clamp(1.35rem, 3vw, 2rem);
+  letter-spacing: -0.04em;
+}
+.policy h3 { margin-top: 1.8em; color: #5f7d5e; }
+.policy blockquote {
+  margin: 22px 0;
+  padding: 16px 18px;
+  border-left: 5px solid var(--coral);
+  background: rgba(232, 144, 140, 0.11);
+  border-radius: 0 16px 16px 0;
+}
+.policy table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0 28px;
+  overflow: hidden;
+  border-radius: 16px;
+  display: block;
+  overflow-x: auto;
+  border: 1px solid var(--line);
+}
+.policy thead { background: rgba(143, 166, 142, 0.2); }
+.policy th, .policy td {
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid var(--line);
+  padding: 12px 14px;
+  min-width: 160px;
+}
+.policy tr:last-child td { border-bottom: 0; }
+.policy code {
+  background: rgba(45, 45, 45, 0.08);
+  border-radius: 6px;
+  padding: 0.1em 0.35em;
+}
+hr { border: 0; border-top: 1px solid var(--line); margin: 28px 0; }
+.footer {
+  border-top: 1px solid var(--line);
+  background: rgba(45, 45, 45, 0.94);
+  color: var(--cream);
+}
+.footer-inner {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 22px;
+  display: flex;
+  justify-content: space-between;
+  gap: 14px;
+  flex-wrap: wrap;
+  color: rgba(245, 239, 230, 0.84);
+}
+.lang-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  margin-top: 30px;
+}
+.lang-card {
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  padding: 24px;
+  background: rgba(255, 250, 242, 0.74);
+  text-decoration: none;
+  color: var(--charcoal);
+  transition: transform .18s ease, border-color .18s ease, background .18s ease;
+}
+.lang-card:hover { transform: translateY(-3px); border-color: var(--coral); background: rgba(255, 250, 242, 0.96); color: var(--charcoal); }
+.lang-card strong { display: block; font-size: 1.28rem; margin-bottom: 8px; }
+.skip-link {
+  position: absolute;
+  left: -999px;
+  top: 10px;
+  background: var(--charcoal);
+  color: var(--cream);
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+.skip-link:focus { left: 10px; z-index: 99; }
+@media (max-width: 720px) {
+  .nav { align-items: flex-start; flex-direction: column; }
+  .hero { padding-top: 36px; }
+  .lang-grid { grid-template-columns: 1fr; }
+  .footer-inner { flex-direction: column; }
+  .policy th, .policy td { min-width: 220px; }
+}
+</style>
+</head>
+<body>
+  <a class="skip-link" href="#content">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/"><span class="brand-mark" aria-hidden="true"></span><span>Padly</span></a>
+      <div class="nav-links">
+        <a href="/en/" aria-current="page">English</a>
+        <a href="/ko/">한국어</a>
+      </div>
+    </nav>
+  </header>
+  <main id="content" class="container">
+    <article class="policy">
+      <p class="kicker">Privacy Policy</p>
+      <h1>Privacy Policy</h1>
+<p><strong>Last Updated:</strong> 2026-05-04<br>
+<strong>Effective Date:</strong> 2026-07-04 (planned)<br>
+<strong>Service:</strong> Padly<br>
+<strong>Operator:</strong> Padly (the “Company”, “we”, “us”, or “our”)</p>
+<hr>
+<h2>1. Introduction</h2>
+<p>Padly is an iOS application that helps travelers in Korea understand and find Korean menstrual products. The Service provides <strong>product information, product-matching support, nearby store guidance, and educational guide content</strong>. Padly does <strong>not</strong> provide medical diagnosis, medical treatment, medical advice, fertility advice, menstrual-cycle prediction, or any claim that a product prevents, treats, or cures a medical condition.</p>
+<p>This Privacy Policy explains what personal information we collect, why we collect it, how long we keep it, when it may be shared with service providers, and what rights users may exercise. The Policy is designed to support Apple App Store submission requirements and to address applicable privacy laws, including Korea’s Personal Information Protection Act (“PIPA”) and, where applicable, the EU General Data Protection Regulation (“GDPR”).</p>
+<p>Apple states that App Store privacy responses must describe the data collected by the app and by third-party partners, and that developers are responsible for keeping those responses accurate and up to date.<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></p>
+<hr>
+<h2>2. Information We Collect</h2>
+<p>Padly follows a data-minimization approach. In the current v1 implementation, the main personal data categories are <strong>account authentication data</strong>, <strong>foreground location used for nearby store search</strong>, and <strong>technical/service logs generated by infrastructure providers</strong>. Padly does not collect menstrual-cycle dates, symptoms, age, photos, camera data, payment card data, advertising identifiers, or background location in v1.</p>
+<h3>2.1 Account and Authentication Data</h3>
+<table>
+<thead>
+<tr>
+<th>Data item</th>
+<th>Purpose</th>
+<th>When collected</th>
+<th>Storage / processor</th>
+<th>Retention</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Email address</td>
+<td>Account creation, sign-in, account recovery, user support, account deletion requests</td>
+<td>When the user signs up, signs in, or contacts support</td>
+<td>Supabase authentication and database infrastructure</td>
+<td>Until account deletion, unless longer retention is legally required</td>
+</tr>
+<tr>
+<td>Password credential / password hash</td>
+<td>Authentication and account security</td>
+<td>When the user creates or updates a password</td>
+<td>Password is transmitted to Supabase authentication over HTTPS; Padly does not display or store plaintext passwords. Authentication provider stores password credentials in hashed form according to its security controls.</td>
+<td>Until account deletion or credential replacement, subject to provider security logs and legal requirements</td>
+</tr>
+<tr>
+<td>Supabase user ID / account identifier</td>
+<td>Account session management, linking account state to the user’s account, support handling</td>
+<td>Generated when an account is created</td>
+<td>Supabase</td>
+<td>Until account deletion, unless longer retention is legally required</td>
+</tr>
+<tr>
+<td>Session token / refresh token</td>
+<td>Keeping the user signed in and managing authenticated sessions</td>
+<td>Generated after successful sign-in</td>
+<td>Stored locally on the user’s device through app storage and managed by Supabase authentication</td>
+<td>Until logout, token expiry, account deletion, or app data deletion</td>
+</tr>
+</tbody>
+</table>
+<h3>2.2 Optional Location Data</h3>
+<table>
+<thead>
+<tr>
+<th>Data item</th>
+<th>Purpose</th>
+<th>When collected</th>
+<th>Sharing / processor</th>
+<th>Retention</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Precise foreground location coordinates (latitude and longitude)</td>
+<td>Showing nearby convenience stores, pharmacies, supermarkets, hypermarkets, or other relevant stores</td>
+<td>Only when the user allows location access while using the app</td>
+<td>Sent to Google Places / Maps Platform to return nearby search results</td>
+<td>Padly does not store location history. Google processes requests according to Google’s applicable terms and privacy policies.</td>
+</tr>
+</tbody>
+</table>
+<p>Location access is <strong>optional</strong>. If the user denies location permission, the core product guide and product-matching information can still be used, but nearby store guidance may not work. Padly does not request background location.</p>
+<h3>2.3 Product Catalog and Service Usage Data</h3>
+<table>
+<thead>
+<tr>
+<th>Data item</th>
+<th>Purpose</th>
+<th>When collected</th>
+<th>Storage / processor</th>
+<th>Retention</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Product catalog lookup requests</td>
+<td>Loading Korean product catalog data and recommendation cards</td>
+<td>When the Finder tab or related product features are used</td>
+<td>Supabase infrastructure logs may process request metadata such as IP address, request time, and technical request data</td>
+<td>According to Supabase logging and retention settings, unless exported or otherwise retained by Padly</td>
+</tr>
+<tr>
+<td>App version, OS version, device model, IP address, request timestamps, and similar technical metadata</td>
+<td>Security, service delivery, debugging, fraud prevention, and infrastructure operation</td>
+<td>Automatically when the app communicates with backend or third-party services</td>
+<td>Supabase, Google, Apple, and hosting/infrastructure providers as applicable</td>
+<td>According to each provider’s operational and legal retention requirements</td>
+</tr>
+<tr>
+<td>Onboarding completion flag and local app preferences</td>
+<td>Remembering that onboarding has been completed and maintaining local user experience</td>
+<td>When the user completes onboarding or changes local app state</td>
+<td>Stored locally on the user’s device</td>
+<td>Until app deletion, local data deletion, or reset</td>
+</tr>
+</tbody>
+</table>
+<p>Padly does not use third-party advertising SDKs, does not sell personal information, and does not use collected data to track users across apps or websites owned by other companies in v1.</p>
+<h3>2.4 Information We Do Not Collect in v1</h3>
+<table>
+<thead>
+<tr>
+<th>Category</th>
+<th>v1 status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Menstrual-cycle dates, predicted period dates, PMS symptoms, fertility data, or other health records</td>
+<td>Not collected</td>
+</tr>
+<tr>
+<td>Photos, camera data, OCR scan images, or photo library data</td>
+<td>Not collected</td>
+</tr>
+<tr>
+<td>Age, date of birth, height, weight, or body profile information</td>
+<td>Not collected</td>
+</tr>
+<tr>
+<td>Payment card information</td>
+<td>Not collected by Padly in v1</td>
+</tr>
+<tr>
+<td>Advertising identifier (IDFA) or tracking data</td>
+<td>Not collected</td>
+</tr>
+<tr>
+<td>Push notification token</td>
+<td>Not collected in v1</td>
+</tr>
+<tr>
+<td>Background location or location history</td>
+<td>Not collected</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>3. Purposes of Processing</h2>
+<p>We use personal information only for purposes that are necessary, disclosed, and proportionate to the Service.</p>
+<table>
+<thead>
+<tr>
+<th>Purpose</th>
+<th>Data used</th>
+<th>Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Account management and authentication</td>
+<td>Email address, password credential / hash, user ID, session tokens</td>
+<td>To create accounts, sign users in, maintain sessions, secure accounts, and respond to account deletion or support requests</td>
+</tr>
+<tr>
+<td>Service delivery</td>
+<td>Product catalog lookup data, account session state, optional foreground location</td>
+<td>To show Korean menstrual product information, recommendation cards, guide content, and nearby store results</td>
+</tr>
+<tr>
+<td>Security and fraud prevention</td>
+<td>Technical logs, IP address, session information, provider logs</td>
+<td>To protect the Service, prevent abuse, troubleshoot errors, and maintain reliability</td>
+</tr>
+<tr>
+<td>Customer support</td>
+<td>Email address, user-provided support content, account identifier</td>
+<td>To respond to inquiries, deletion requests, and operational support issues</td>
+</tr>
+<tr>
+<td>Legal compliance</td>
+<td>Account records and operational logs where legally required</td>
+<td>To comply with applicable law, enforce rights, and respond to lawful requests</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>4. Legal Bases for Processing Under GDPR</h2>
+<p>Where GDPR applies, we rely on the following legal bases under Article 6 of the GDPR.<sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup></p>
+<table>
+<thead>
+<tr>
+<th>Processing activity</th>
+<th>GDPR legal basis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Account creation, sign-in, and session management</td>
+<td>Performance of a contract or steps prior to entering into a contract, Article 6(1)(b)</td>
+</tr>
+<tr>
+<td>Optional foreground location for nearby store search</td>
+<td>Consent, Article 6(1)(a), expressed through the iOS location permission flow</td>
+</tr>
+<tr>
+<td>Security, debugging, and service reliability</td>
+<td>Legitimate interests, Article 6(1)(f), provided those interests are not overridden by the user’s rights and freedoms</td>
+</tr>
+<tr>
+<td>Responding to legal requests or statutory obligations</td>
+<td>Legal obligation, Article 6(1)(c)</td>
+</tr>
+<tr>
+<td>Support inquiries voluntarily sent by users</td>
+<td>Consent or legitimate interests, depending on the nature of the inquiry</td>
+</tr>
+</tbody>
+</table>
+<p>Padly does not intentionally process special-category health data under GDPR Article 9 in v1. Menstrual product matching in Padly v1 is treated as product information and retail guidance, not as medical diagnosis or health profiling.</p>
+<hr>
+<h2>5. Retention Periods</h2>
+<p>We keep personal information only for as long as necessary for the purposes described in this Policy, unless a longer period is required by law.</p>
+<table>
+<thead>
+<tr>
+<th>Data category</th>
+<th>Retention period</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Account data, including email address and user ID</td>
+<td>Until account deletion, plus a short operational backup or dispute-handling period where necessary</td>
+</tr>
+<tr>
+<td>Password credential / password hash</td>
+<td>Until account deletion or password replacement, subject to authentication-provider security controls</td>
+</tr>
+<tr>
+<td>Session tokens stored on device</td>
+<td>Until logout, token expiry, account deletion, app deletion, or local app-data deletion</td>
+</tr>
+<tr>
+<td>Foreground location coordinates</td>
+<td>Not stored by Padly as location history; used transiently to return nearby store results</td>
+</tr>
+<tr>
+<td>Support inquiries</td>
+<td>For the period necessary to respond to the inquiry and maintain reasonable support records</td>
+</tr>
+<tr>
+<td>Infrastructure access logs</td>
+<td>According to the retention settings and legal obligations of Supabase, Google, Apple, and other infrastructure providers</td>
+</tr>
+<tr>
+<td>Records required by applicable law</td>
+<td>For the period required by the relevant law</td>
+</tr>
+</tbody>
+</table>
+<p>If Padly later adds in-app purchases, community reviews, menstrual-cycle features, notifications, or health-related personalization, this Policy must be updated before those features are released.</p>
+<hr>
+<h2>6. Sharing and Third-Party Processing</h2>
+<p>We do not sell personal information. We do not share personal information with third parties for cross-app tracking or third-party advertising in v1. We may share or make data available only as necessary for service operation, legal compliance, or user-requested support.</p>
+<table>
+<thead>
+<tr>
+<th>Recipient / processor</th>
+<th style="text-align: right;">Location</th>
+<th>Role</th>
+<th>Data involved</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Supabase Inc.</td>
+<td style="text-align: right;">United States / cloud infrastructure regions</td>
+<td>Authentication, database, and backend infrastructure</td>
+<td>Email address, user ID, authentication/session data, catalog request logs, technical metadata</td>
+</tr>
+<tr>
+<td>Google LLC / Google Maps Platform</td>
+<td style="text-align: right;">Global</td>
+<td>Nearby store search and maps-related services</td>
+<td>Foreground location coordinates and technical request metadata when the user uses Nearby features</td>
+</tr>
+<tr>
+<td>Apple Inc.</td>
+<td style="text-align: right;">Global</td>
+<td>App distribution, App Store review, TestFlight, and platform services</td>
+<td>App distribution metadata, crash/diagnostic data if provided by Apple, App Store account-related data handled under Apple’s own policies</td>
+</tr>
+<tr>
+<td>Email service or mail client selected by the user</td>
+<td style="text-align: right;">Varies</td>
+<td>Support and account deletion requests</td>
+<td>User-provided support content and email address</td>
+</tr>
+<tr>
+<td>Legal or governmental authorities</td>
+<td style="text-align: right;">Varies</td>
+<td>Legal compliance</td>
+<td>Information legally required in response to valid process or applicable law</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>7. International Data Transfers</h2>
+<p>Padly may use service providers located outside the user’s country, including the United States. Where GDPR applies and personal data is transferred internationally, we will rely on appropriate safeguards such as adequacy decisions, Standard Contractual Clauses, or other lawful transfer mechanisms as applicable.<sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup></p>
+<p>Users should understand that privacy and data-protection laws in other countries may differ from those in their country of residence. We take reasonable steps to use reputable infrastructure providers and to limit transferred data to what is necessary for the Service.</p>
+<hr>
+<h2>8. User Rights</h2>
+<p>Users may exercise rights available under applicable law. Depending on the user’s location, these rights may include the following.</p>
+<table>
+<thead>
+<tr>
+<th>Right</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Access</td>
+<td>Request confirmation of whether we process personal information and receive a copy where legally required</td>
+</tr>
+<tr>
+<td>Correction</td>
+<td>Request correction of inaccurate or incomplete information</td>
+</tr>
+<tr>
+<td>Deletion</td>
+<td>Request deletion of account data and personal information, subject to legal exceptions</td>
+</tr>
+<tr>
+<td>Restriction or objection</td>
+<td>Request restriction of processing or object to certain processing where applicable</td>
+</tr>
+<tr>
+<td>Data portability</td>
+<td>Receive certain personal data in a portable format where GDPR applies</td>
+</tr>
+<tr>
+<td>Withdrawal of consent</td>
+<td>Withdraw consent for optional processing such as location permission through iOS settings or in-app controls where available</td>
+</tr>
+<tr>
+<td>Complaint</td>
+<td>Contact a competent data-protection authority where applicable</td>
+</tr>
+</tbody>
+</table>
+<p><strong>How to exercise rights:</strong> Users may contact us at the email address below. If an in-app account deletion or privacy management flow is available, users may also use that flow.<br>
+<strong>Target response period:</strong> We aim to respond within 10 business days where practical, or within the period required by applicable law.</p>
+<hr>
+<h2>9. Account Deletion</h2>
+<p>Users may request account deletion by using the in-app account management flow, if available, or by contacting us at the email address below. After verifying the request, we will delete or de-identify account data unless retention is required for legal, security, dispute-resolution, or legitimate operational reasons.</p>
+<p>Logging out only removes the active session from the device; it does not delete the account. Deleting the app may remove local session data from the device, but it does not automatically delete the account stored with the authentication provider.</p>
+<hr>
+<h2>10. Children’s Privacy</h2>
+<p>Padly is not directed to children. The Service is not intended for children under 14 in Korea or under the applicable minimum digital-consent age in the user’s jurisdiction. If we learn that we have collected personal information from a child without appropriate consent, we will take reasonable steps to delete it.</p>
+<hr>
+<h2>11. Security</h2>
+<p>We use reasonable technical and organizational safeguards appropriate to the nature of the data, including HTTPS transmission, managed authentication infrastructure, and limited data collection. However, no system can be guaranteed to be completely secure. Users should use a strong password and should not reuse passwords across services.</p>
+<hr>
+<h2>12. Changes to This Policy</h2>
+<p>We may update this Policy to reflect changes in the Service, legal requirements, Apple App Store requirements, or our data practices. We will provide notice of material changes through the app, website, App Store listing, or other reasonable means. If a change materially affects user rights or introduces new categories of personal data processing, we will provide additional notice or request consent where required.</p>
+<hr>
+<h2>13. Contact</h2>
+<table>
+<thead>
+<tr>
+<th>Role</th>
+<th>Contact</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Privacy contact / operator</td>
+<td>Padly</td>
+</tr>
+<tr>
+<td>Email</td>
+<td>jungbim@gmail.com (privacy@padly.app — to be applied once the domain is finalized)</td>
+</tr>
+<tr>
+<td>Support email</td>
+<td>jungbim@gmail.com (support@padly.app — to be applied once the domain is finalized)</td>
+</tr>
+</tbody>
+</table>
+<p>If these email addresses are not active at the time of publication, the operator must replace them with active contact channels before App Store submission.</p>
+<hr>
+<h2>References</h2>
+<p><em>This Privacy Policy is effective as of 2026-07-04, subject to publication.</em></p>
+<div class="footnote">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://developer.apple.com/app-store/app-privacy-details/">Apple Developer — App Privacy Details on the App Store</a>&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="https://eur-lex.europa.eu/eli/reg/2016/679/oj">Regulation (EU) 2016/679, Article 6 — Lawfulness of processing</a>&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:3">
+<p><a href="https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/standard-contractual-clauses-scc_en">European Commission — Standard Contractual Clauses for international transfers</a>&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+    </article>
+  </main>
+  <footer class="footer">
+    <div class="footer-inner">
+      <span>Last updated: 2026-05-04</span>
+      <span>Padly © 2026</span>
+    </div>
+  </footer>
+</body>
+</html>
